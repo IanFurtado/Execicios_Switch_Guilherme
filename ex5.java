@@ -11,29 +11,23 @@ public class ex5 {
 
         switch (letra) {
             case "M","m":
-                double resposta1 = num1 + num2;
-                double resposta0 = resposta1 / 2;
-                System.out.println(resposta0);
+                System.out.println((num1 + num2) / 2.0);
                 break;
 
             case "S","s":
                 if (num1 > num2) {
-                    int resposta2 = num1 - num2;
-                    System.out.println(resposta2);
+                    System.out.println((num1 - num2));
                 } else {
-                    int resposta2 = num2 - num1;
-                    System.out.println(resposta2);
+                    System.out.println((num2 - num1));
                 }
                 break;
 
             case "P","p":
-                long resposta4 = num1 * num2;
-                System.out.println(resposta4);
+                System.out.println((num1 * num2));
                 break;
 
             case "D","d":
-                double resposta5 = num1 / (double)num2;
-                System.out.println(resposta5);
+                System.out.println((num1 / (double) num2));
                 break;
         
             default:
